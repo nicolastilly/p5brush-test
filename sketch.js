@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(windowWidth, windowHeight, WEBGL);
+    createCanvas(windowWidth, windowHeight - 180, WEBGL);
     background("#f6f1e8");
 
 
@@ -15,6 +15,7 @@ function setup() {
 
 
     brush.fill("#002185", 175);
+    brush.hatch(2, 25);
     brush.circle(10, 20, 150, 0.3);
 }
 
